@@ -1,0 +1,93 @@
+part 2 money with baba
+
+#include <iostream>
+using namespace std;
+int main(void){
+    
+    int a,b;
+    cin>>a>>b;
+    int initialamount = a;
+    int counter = 1;
+    while (counter<=b){
+        initialamount = initialamount*2;
+        counter++;
+    }
+    cout<<initialamount<<endl; 
+    
+}
+
+------------------------------------------------------------------
+
+part 2 punctuality intentive program
+
+#include <iostream>
+using namespace std;
+int main() {
+int i,n,j,s;
+cin>>i>>n;
+s=i;
+for(j=0;j<n-1;j++)
+{
+  s=s+200;
+  i=i+s;
+}
+if(n!=0)
+cout<<i;
+else
+cout<<"0";
+}
+
+----------------------------------------------------------------------
+Social media 
+#include <iomanip>
+#include <iostream>
+#include <cstdlib>
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    
+    char a;
+    cin>>a;
+    switch(a){
+      case 'w':
+      case 'W':
+        std::cout<<"whatsapp"<<endl;
+        break;
+      case 't':
+      case 'T':
+        std::cout<<"Twitter"<<endl;
+        break;
+
+      case 'f':
+      case 'F':
+        std::cout<<"facebook"<<endl;
+        break;
+
+      default:
+        std::cout<<"invalid"<<endl;
+    }
+    return 0;
+}
+
+---------------------------------------------
+//x,y coordinates
+#include <bits/stdc++.h>
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+int main(void){
+    
+    int x,y,l,a,b;
+    cin>>x>>y>>l;
+    a = l+x;
+    b = l+y;
+    cout<<a<<endl;
+    cout<<b<<endl;
+    
+    return 0;
+    
+    
+}
+---
